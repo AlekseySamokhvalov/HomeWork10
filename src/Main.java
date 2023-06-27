@@ -28,7 +28,10 @@ public class Main {
     public static void task3 () {
         System.out.println("Задача 3");
         // Пишем код для задачи 3
+        String fullName = "Иванов Семён Семёнович";
+        String replacedFullName = fullName.replace('ё', 'е');
 
+        System.out.println("Данные ФИО сотрудника - " + replacedFullName);
     }
 
 }
